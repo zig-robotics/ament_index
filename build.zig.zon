@@ -1,0 +1,14 @@
+.{
+    .name = "ament_index",
+    .version = "1.8.1",
+    .dependencies = .{
+        .ament_index = .{
+            .url = "https://github.com/ament/ament_index/archive/tags/1.8.1.tar.gz", // Jazzy
+            .hash = "12204539f04ab23cadb60d508d2bae17c1ca79e477638529f85df11821ac4e4aab4c",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
